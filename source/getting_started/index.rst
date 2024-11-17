@@ -5,6 +5,7 @@ This section is aimed to solve future onboarding needs. The subsections will con
 
 .. toctree::
    :maxdepth: 2
-  
+   :hidden:
+
    ros2/index
    mujoco/index

@@ -6,4 +6,5 @@ Populate with organization information
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
