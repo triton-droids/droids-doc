@@ -18,7 +18,9 @@
       <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="ROS2 Topics" href="ros2_topics.html" />
+    <link rel="prev" title="Getting Started" href="../index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -40,11 +42,20 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Introduction to ROS2</a></li>
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Getting Started</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction to ROS2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ros2_topics.html">ROS2 Topics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ros2_services.html">ROS2 Services</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ros2_actions.html">ROS2 Actions</a></li>
 </ul>
-</div>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../mujoco/index.html">Introduction to Mujoco</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">Triton Droids at UCSD</a></li>
+</ul>
+
         </div>
       </div>
     </nav>
@@ -59,6 +70,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Getting Started</a></li>
       <li class="breadcrumb-item active">Introduction to ROS2</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/getting_started/ros2/index.rst.txt" rel="nofollow"> View page source</a>
@@ -71,15 +83,51 @@
              
   <section id="introduction-to-ros2">
 <h1>Introduction to ROS2<a class="headerlink" href="#introduction-to-ros2" title="Link to this heading"></a></h1>
-<p>To be filled documentation for introductory ROS2-related onboarding.</p>
+<p>This is an introductory-level exposure to what ROS2 is and does. For more information, check out the <a class="reference external" href="https://docs.ros.org/">main documentation</a>.
+There are various ROS2 distributions, and you can use whichever distribution you want. Below is a table of ROS2 distributions:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Distribution</p></th>
+<th class="head"><p>Release Date</p></th>
+<th class="head"><p>End of Life</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Jazzy Jalisco</p></td>
+<td><p>May 23rd, 2024</p></td>
+<td><p>May 2029</p></td>
+</tr>
+<tr class="row-odd"><td><p>Iron Irwini</p></td>
+<td><p>May 23rd, 2023</p></td>
+<td><p>November 2024</p></td>
+</tr>
+<tr class="row-even"><td><p>Humble Hawksbill</p></td>
+<td><p>May 23rd, 2022</p></td>
+<td><p>May 2027</p></td>
+</tr>
+</tbody>
+</table>
+<p>We’ll be using humble. To install humble, follow this <a class="reference external" href="https://docs.ros.org/en/humble/Installation.html">tutorial</a>.</p>
+<p>If you don’t want to install natively, you can pull the docker image:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>ros:humble
+</pre></div>
+</div>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ros2_topics.html">ROS2 Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ros2_services.html">ROS2 Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ros2_actions.html">ROS2 Actions</a></li>
+</ul>
 </div>
 </section>
 
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ros2_topics.html" class="btn btn-neutral float-right" title="ROS2 Topics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
